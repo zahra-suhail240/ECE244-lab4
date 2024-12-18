@@ -1,0 +1,48 @@
+Submitting assignment 4 from remote.ecf.utoronto.ca
+Checking for the expected files in the current directory
+main.cpp Customer.cpp Register.cpp QueueList.cpp RegisterList.cpp
+Attempting to build your code.  Make output follows:
+==================================================================
+g++ -std=c++11 -c -g main.cpp Customer.h QueueList.h Register.h RegisterList.h
+g++ -std=c++11 -c -g Customer.cpp
+g++ -std=c++11 -c -g QueueList.cpp
+g++ -std=c++11 -c -g Register.cpp
+g++ -std=c++11 -c -g RegisterList.cpp
+g++ -std=c++11 main.o Customer.o QueueList.o Register.o RegisterList.o -o main
+------------------------------------------------------------------
+The build appears to have been successful
+
+Running exercise on the produced executable 'main'
+############### Testcase 1 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+############### Testcase 2 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+############### Testcase 3 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+############### Testcase 4 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+################# Summary for 4 test(s) #####################
+Functionality: PASS: All tests passed
+Valgrind:      PASS: No memory leaks detected
+
+The required files passed exercise
+
+Submitting files
+
+Verifying submission
+submitece244f -l 4
+total 32
+-rw-r----- 1 submit ece244gp  1070 Nov 10 12:03 Customer.cpp
+-rw-r----- 1 submit ece244gp 10803 Nov 10 12:03 main.cpp
+-rw-r----- 1 submit ece244gp  2010 Nov 10 12:03 QueueList.cpp
+-rw-r----- 1 submit ece244gp  2675 Nov 10 12:03 Register.cpp
+-rw-r----- 1 submit ece244gp  4656 Nov 10 12:03 RegisterList.cpp
+
+All filesizes match. All timestamps match submission time.
+
+Submission was successful
+
